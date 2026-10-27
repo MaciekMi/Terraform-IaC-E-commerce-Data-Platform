@@ -1,0 +1,20 @@
+[0m[1maws_db_instance.postgres: Still modifying... [id=db-M3CTWYSMGRZ72FCFP3V35BBJBI, 00m20s elapsed][0m[0m
+[0m[1maws_db_instance.postgres: Still modifying... [id=db-M3CTWYSMGRZ72FCFP3V35BBJBI, 00m30s elapsed][0m[0m
+[0m[1maws_db_instance.postgres: Still modifying... [id=db-M3CTWYSMGRZ72FCFP3V35BBJBI, 00m40s elapsed][0m[0m
+[0m[1maws_db_instance.postgres: Still modifying... [id=db-M3CTWYSMGRZ72FCFP3V35BBJBI, 00m50s elapsed][0m[0m
+[0m[1maws_db_instance.postgres: Still modifying... [id=db-M3CTWYSMGRZ72FCFP3V35BBJBI, 01m00s elapsed][0m[0m
+[0m[1maws_db_instance.postgres: Still modifying... [id=db-M3CTWYSMGRZ72FCFP3V35BBJBI, 01m10s elapsed][0m[0m
+[0m[1maws_db_instance.postgres: Still modifying... [id=db-M3CTWYSMGRZ72FCFP3V35BBJBI, 01m20s elapsed][0m[0m
+[0m[1maws_db_instance.postgres: Still modifying... [id=db-M3CTWYSMGRZ72FCFP3V35BBJBI, 01m30s elapsed][0m[0m
+[0m[1maws_db_instance.postgres: Modifications complete after 1m31s [id=db-M3CTWYSMGRZ72FCFP3V35BBJBI][0m
+[0m[1m[32m
+Apply complete! Resources: 0 added, 1 changed, 0 destroyed.[0m
+[0m[1m[32m
+Outputs:
+
+[0mcurated_bucket_name = "ecommerce-dev-394281571971-curated"
+glue_role_arn = "arn:aws:iam::394281571971:role/ecommerce-dev-glue-role"
+orders_etl_job_name = "orders-etl-job"
+processed_bucket_name = "ecommerce-dev-394281571971-processed"
+raw_bucket_name = "ecommerce-dev-394281571971-raw"
+rds_endpoint = "ecommerce-dev-postgres.c1uuwkeuazex.eu-central-1.rds.amazonaws.com:5432"

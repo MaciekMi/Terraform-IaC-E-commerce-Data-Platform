@@ -1,0 +1,20 @@
+# Przykładowa konfiguracja dla środowiska DEV
+# Nie wpisuj tutaj prawdziwych sekretów.
+
+aws_region = "eu-central-1"
+project    = "ecommerce"
+env        = "dev"
+
+# Dane dostępowe do RDS przekazuj docelowo przez zmienne środowiskowe:
+# $env:TF_VAR_db_username="..."
+# $env:TF_VAR_db_password="..."
+
+db_username = "example_user"
+db_password = "example_password"
+
+vpc_id = "vpc-0872cef6de95d46a1"
+
+private_subnet_ids = [
+  "subnet-0011c7f9402f69845",
+  "subnet-00bc51763ab1dd451"
+]
